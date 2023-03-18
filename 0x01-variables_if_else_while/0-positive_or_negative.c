@@ -4,9 +4,9 @@
 /**
  *main - determines if a number is positive, negative or zero
  *
- *return Always 0 (success)
+ *return (0)(success)
  */
-int main(void)
+int main(void);
 {
 int n;
 srand(time(0)) :
@@ -23,5 +23,5 @@ else
 {
 printf("%d is negative/n", n);
 }
-return 0 :
+return (0);
 }
