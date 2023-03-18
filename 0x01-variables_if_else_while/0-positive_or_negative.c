@@ -4,11 +4,11 @@
 /**
  *main - determines if a number is positive, negative or zero
  *
- *return : Always 0 (success)
+ *return Always 0 (success)
  */
-int main(void)
+int main (void)
 {
-int n :
+int n;
 srand(time(0)) :
 n = rand() - RAND_MAX / 2 :
 if (n > 0)
@@ -23,5 +23,5 @@ else
 {
 printf("%d is negative/n", n);
 }
-return (0) :
+return 0 :
 }
