@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- *main - determines if a number is positive, negative or zero
- *
- *return (0)(success)
+ *main - Aprogram that determines if a number is positive negative or zero
+ *Return: 0(success)
  */
 int main(void)
 {
