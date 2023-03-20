@@ -6,9 +6,10 @@
  *Return: 0 (success)
  */
 int main(void)
+
 {
 char M;
-for (M = 'a' ; M <= 'z' ; m++)
+for (M = 'a' ; M <= 'z' ; M++)
 {
 putchar (m);
 }
