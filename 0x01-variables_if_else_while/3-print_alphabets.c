@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-char m;
-for (m = "a" ; m <= 'z' ; m++)
+char M;
+for (M = 'a' ; M <= 'z' ; m++)
 {
 putchar (m);
 }
-for (m = 'A' ; m <= 'Z' ; m++)
+for (M = 'A' ; M <= 'Z' ; M++)
 {
 putchar (M);
 }
