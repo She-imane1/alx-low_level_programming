@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_alphabet - function writes the alphabet on a line.
- *Return: Always 0; 
+ *Return: Always 0;
  */
 void print_alphabet(void)
 {
