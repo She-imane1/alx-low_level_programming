@@ -6,11 +6,13 @@
  */
 void print_most_numbers(void)
 {
-char n;
-for (n == '0' ; n <= '9' ; n++)
+int num = 0;
+
+while (num < 10)
 {
-if (!(n == '2' || n == '4'))
-_putchar(n);
+if (num != 2 && num != 4)
+_putchar('0' + num);
+num++;
 }
 _putchar('\n');
 }
