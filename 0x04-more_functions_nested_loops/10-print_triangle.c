@@ -8,20 +8,31 @@
 void print_triangle(int size);
 
 {
+int i, margin, dis, to_print;
 if (size <= 0)
 {
 _putchar('\n');
+return;
 }
-else
+
+dis = size - 1;
+for (i = 0 ; i < size ; i++)
 {
-int i, j;
-for (i = 1 ; i <= size; i++)
+
+margin = 0;
+while (margin < (dis - i))
 {
-_putchar(' ');
+_putchar(32);
+margin++;
 }
-for (j = 1 ; j <= i ; j++)
+
+to_print = size - margin;
+
+while (to_print > 0)
 {
 _putchar('#');
+to_print--;
 }
+_putchar('\n');
 }
 }
