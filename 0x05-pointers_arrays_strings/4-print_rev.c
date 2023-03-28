@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- *print_rev - prints a string, in reverse, followed by a new line
+ *print_rev - prints a string, in reverse
  *@s: the value to process to the stdout in reverse
  */
 void print_rev(char *s)
 {
-int co;
-while (*(s + co) != '\n')
+int start = 0;
+
+while (s[start])
 {
-co++;
+start++;
 }
-while (co--)
+while (start--)
 {
-_putchar(*(s + (co)));
+_putchar(s[start]);
 }
 _putchar('\n');
 }
