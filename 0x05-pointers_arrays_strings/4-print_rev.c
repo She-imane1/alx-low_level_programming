@@ -5,14 +5,14 @@
  */
 void print_rev(char *s)
 {
-int count;
-while (*(s + count) != '\n')
+int co;
+while (*(s + co) != '\n')
 {
-count++;
+co++;
 }
-while (count--)
+while (co--)
 {
-_putchar(*(s + (count)));
+_putchar(*(s + (co)));
 }
 _putchar('\n');
 }
