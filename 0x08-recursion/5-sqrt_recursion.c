@@ -1,9 +1,10 @@
 #include "main.h"
-int sqrt_rec_odd(int start, int n)
 /**
  * sqrt_rec_odd - helper to deal with odd numbers and primes
  * @start: the odd or prime number to check for sqrt
  * @n: number to find the square root of
+ */
+/**
  *_sqrt_recursion -  returns the natural square root of a number
  *@n: number to find the square root of
  *Return: 0
