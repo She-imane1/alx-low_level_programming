@@ -1,0 +1,12 @@
+#include <stdio.h>
+/**
+ *main - point
+ *@argc: number of arguments
+ *@argv: arguments
+ *Return: number of arguments
+ */
+int main(int argc, char *argv[] __attribute__((unused)))
+{
+printf("%d\n", argc - 1);
+return (argc - 1);
+}
