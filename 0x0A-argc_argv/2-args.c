@@ -9,6 +9,6 @@ int main(int argc, char *argv[])
 {
 int j;
 for (j = 0; j < argc; j++)
-printf("ùd\n", argv[j]);
+printf("%s\n", argv[j]);
 return (0);
 }
