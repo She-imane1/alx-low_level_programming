@@ -21,3 +21,24 @@ count++;
 }
 return (1);
 }
+unsigned int count;
+unsigned int str_to_int;
+unsigned int sum = 0;
+count = 1;
+while (count < argc)
+{
+if (check_num(argv[count]))
+{
+str_to_int = atoi(argv[count]);
+sum += str_to_int;
+}
+else
+{
+printf("Error\n");
+return (1);
+}
+count++;
+}
+printf("%d\n", sum);
+return (0);
+}
