@@ -1,33 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 /**
- *main - adds positive numbers
- *@argc: number of arguments passed in argv
- *@argv: strings
+ *check_num - adds positive numbers
+ *@str: strings
  *Return: 0 (success) 1 (failure)
  */
-int main(int argc, char *argv[])
+int check_num(char *str)
 {
-int j, k, sum = 0;
-if (argc < 2)
+unsigned int count;
+count = 0;
+while (count < strlen(str))
 {
-printf("0\n");
+if (isdigit(str[count]))
+{
 return (0);
 }
-for (j = 1; j < argc; j++)
-{
-for (k = 0; argv[j][k] != '\0'; k++)
-{
-if (!isdigit(argv[j][k])
-{
-printf("Error\n");
+count++;
+}
 return (1);
-}
-}
-}
-}
-sum += atoi(argv[j];
-printf("%d\n", sum);
-return (0);
 }
