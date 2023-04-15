@@ -25,4 +25,5 @@ b--;
 max--;
 }
 arr[b] = min;
+return (arr);
 }
